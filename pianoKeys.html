@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang = "en">
+  <!--With modifications from https://github.com/michaelmp/js-piano-->
+<head>
+	<title>
+	Piano
+	</title>
+	<link rel="stylesheet" type="text/css" href="pianostyle.css">
+</head>
+
+<body>
+
+<div id="piano">
+	<div id="piano-container">
+		<div id="piano-keys">
+			<div class="piano-white A"></div>
+			<div class="piano-black"><div class ="piano-black-raised As"></div></div>
+			<div class="piano-white B"></div>
+			<div class="piano-white C"></div>
+			<div class="piano-black"><div class = "piano-black-raised Cs"></div></div>
+			<div class="piano-white D"></div>
+			<div class="piano-black"><div class = "piano-black-raised Ds"></div></div>
+			<div class="piano-white E"></div>
+			<div class="piano-white F"></div>
+			<div class="piano-black"><div class = "piano-black-raised Fs"></div></div>
+			<div class="piano-white G"></div>
+			<div class="piano-black"><div class = "piano-black-raised Gs"></div></div>
+			<div class="piano-white A2"></div>
+			<div class="piano-black"><div class = "piano-black-raised As2"></div></div>
+			<div class="piano-white B2"></div>
+		</div>
+	</div>
+</div>
+
+<div id ="current_note"></div>
+
+<div id = "key_sounds">
+	<audio id="sound-A" src="sounds/A.ogg"></audio>
+	<audio id="sound-As" src="sounds/As.ogg"></audio>
+	<audio id="sound-B" src="sounds/B.ogg"></audio>
+	<audio id="sound-C" src="sounds/C.ogg"></audio>
+	<audio id="sound-Cs" src="sounds/Cs.ogg"></audio>
+	<audio id="sound-D" src="sounds/D.ogg"></audio>
+	<audio id="sound-Ds" src="sounds/Ds.ogg"></audio>
+	<audio id="sound-E" src="sounds/E.ogg"></audio>
+	<audio id="sound-F" src="sounds/F.ogg"></audio>
+	<audio id="sound-Fs" src="sounds/Fs.ogg"></audio>
+	<audio id="sound-G" src="sounds/G.ogg"></audio>
+	<audio id="sound-Gs" src="sounds/Gs.ogg"></audio>
+	<audio id="sound-A2" src="sounds/A2.ogg"></audio>
+	<audio id="sound-As2" src="sounds/As2.ogg"></audio>
+	<audio id="sound-B2" src="sounds/B2.ogg"></audio>
+</div>
+	<script src="pianoplayer.js"></script>
+</body>
+</html>
